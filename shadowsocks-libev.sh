@@ -504,7 +504,7 @@ install_shadowsocks_libev(){
     pre_install
     download_files
     config_shadowsocks
-    firewall_set
+    # firewall_set
     install_shadowsocks
 }
 
